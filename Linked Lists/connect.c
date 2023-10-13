@@ -1,3 +1,4 @@
+/*
 Throughout the code there is a series of nested for loops used to create and iterate
 through the connect for board in each function. We use a 2D array in order to create both columns and rows
 that are accessible.
