@@ -8,10 +8,15 @@ In the Linked Lists folder, find a connect four game that utilizes linked lists 
 In the binary search tree folder, a 2-player connect four game was created. The player has the opportunity to 'rerun' the game which utilized sleep() to replay all of the moves made throughout the game. A BST is used to store the board after each move.
 
 # Data Structures and Algorithms Projects:
-- File I/O: Project one deals with the basic handling of file IO. The instructions are as follows: for this project, you should have four modules, with the header files named data_structures.h, util.h, list_read.h, list_write.h, and the implementation files list_read.cpp, list_write.cpp, main.cpp, and util.cpp. The program should be able to handle upwards of 20 test cases.
-- Min Heaps: Project 2 deals with the development of the following min heap functionalities: Heapify, BuildHeap, ExtractMin, DecreaseKey, and Insertion. When writing the min heap data structure, A[i] should be either of type ELEMENT* or ELEMENT, depending on your specific implementation. ELEMENT is a struct that includes a field named 'key' of type double, along with other
+- File I/O:
+Project one deals with the basic handling of file IO. The instructions are as follows: for this project, you should have four modules, with the header files named data_structures.h, util.h, list_read.h, list_write.h, and the implementation files list_read.cpp, list_write.cpp, main.cpp, and util.cpp. The program should be able to handle upwards of 20 test cases.
+  
+- Min Heaps:
+Project 2 deals with the development of the following min heap functionalities: Heapify, BuildHeap, ExtractMin, DecreaseKey, and Insertion. When writing the min heap data structure, A[i] should be either of type ELEMENT* or ELEMENT, depending on your specific implementation. ELEMENT is a struct that includes a field named 'key' of type double, along with other
 fields. Consequently, the heap order is determined by either A[i]->key or A[i].key, depending on your chosen implementation.
-- Adjacency Lists, Heaps, Stacks & Shortest Paths: This project is the essential part of a navigation system. It reads in a directed graph or an undirected graph G with n vertices and m edges from a file specified by the command-line (with proper arguments). It then takes corresponding actions for given instructions from stdin. Besides the Stop instruction, valid instructions include
+
+- Adjacency Lists, Heaps, Stacks & Shortest Paths:
+This project is the essential part of a navigation system. It reads in a directed graph or an undirected graph G with n vertices and m edges from a file specified by the command-line (with proper arguments). It then takes corresponding actions for given instructions from stdin. Besides the Stop instruction, valid instructions include
   α: graph printing instruction (PrintADJ)
   β: path computation instructions (SinglePair and SingleSource)
   γ: length/path printing instructions (PrintLength and PrintPath)
